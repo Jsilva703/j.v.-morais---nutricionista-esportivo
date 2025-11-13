@@ -17,22 +17,22 @@ const Hero: React.FC = () => {
       className="py-20 md:py-32 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('https://picsum.photos/seed/nutritionist-hero/1920/1080')" }}
     >
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
       <div className="container mx-auto px-6 text-center relative z-10">
-        <h1 className="font-anton text-5xl md:text-7xl lg:text-8xl tracking-wider uppercase">
+        <h1 className="font-anton text-5xl md:text-7xl lg:text-8xl tracking-wider uppercase text-white">
           Nutricionista
         </h1>
-        <h2 className="font-anton text-6xl md:text-8xl lg:text-9xl text-blue-500 tracking-wider uppercase -mt-2 md:-mt-4">
+        <h2 className="font-anton text-6xl md:text-8xl lg:text-9xl text-blue-400 tracking-wider uppercase -mt-2 md:-mt-4">
           Esportivo
         </h2>
-        <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-gray-300">
+        <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-gray-200">
           Alcance seus objetivos de saúde, performance e estética com um acompanhamento profissional e personalizado.
         </p>
         
         <div className="mt-10 max-w-3xl mx-auto">
             <ul className="flex flex-wrap justify-center gap-2 md:gap-3">
                 {specialities.map((item, index) => (
-                    <li key={index} className="bg-gray-700/50 backdrop-blur-sm border border-gray-600 text-gray-300 text-xs md:text-sm font-semibold py-1 px-3 rounded-full">
+                    <li key={index} className="bg-slate-700/60 backdrop-blur-sm border border-slate-500 text-gray-100 text-xs md:text-sm font-semibold py-1 px-3 rounded-full">
                         {item}
                     </li>
                 ))}

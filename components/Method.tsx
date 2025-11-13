@@ -13,7 +13,7 @@ const methodItems = [
 
 const Method: React.FC = () => {
   return (
-    <section className="py-16 sm:py-24 bg-gray-900">
+    <section className="py-16 sm:py-24 bg-slate-900">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
